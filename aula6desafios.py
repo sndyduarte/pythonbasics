@@ -1,0 +1,11 @@
+n1 = int(input('Digite um valor: '))
+n2 = int(input('Digite outro valor: '))
+s = int(n1+n2)
+print('A soma entre {} e {} vale {}.'.format(n1, n2, s))
+
+f1 = input('Digite algo:')
+print(f1.isalpha())
+print(f1.isnumeric())
+print(f1.isalnum())
+print(f1.isupper())
+print(f1.islower())
