@@ -1,0 +1,5 @@
+nome = str(input('Qual é o seu nome completo? ')).strip()
+nc = nome.split()
+print('Seu primeiro nome é {},'.format(nc[0]))
+print('E seu último nome é {}.'.format(nc[len(nc)-1]))
+#OU#print('Seu último nome é {}'.format(nc[-1]))
